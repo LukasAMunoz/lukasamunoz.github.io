@@ -64,4 +64,8 @@
     window.scrollTo(0, 0);
   }*/
 
+  window.onload = function () {
+    this.alert("This web is under development, you may find some uncompleted parts.")
+  }
+
 })(jQuery); // End of use strict
